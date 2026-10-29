@@ -1,0 +1,20 @@
+{
+  "schema_version": "metachorus.m9-vis-p1.augmentation-grid.v1",
+  "datasets": ["acm", "dblp", "aminer", "imdb", "freebase"],
+  "p_e_values": [0.1, 0.3, 0.5, 0.7, 0.9],
+  "p_f_values": [0.1, 0.3, 0.5, 0.7, 0.9],
+  "model_seeds": [3276665818, 1910071238, 610349320],
+  "endpoint_updates": 3000,
+  "checkpoint_schedule": [1000, 2000, 3000],
+  "representation_schedule": [3000],
+  "engineering_canary_updates": 20,
+  "engineering_canary_p_e": 0.5,
+  "engineering_canary_p_f": 0.5,
+  "expected_grid_rows": 375,
+  "required_gpu_count": 4,
+  "required_gpu_model_substring": "RTX 4090",
+  "soft_gpu_hours": 60,
+  "hard_gpu_hours": 72,
+  "soft_critical_path_hours": 18,
+  "hard_critical_path_hours": 24
+}

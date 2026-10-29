@@ -1,0 +1,23 @@
+{
+  "schema_version": "metachorus.m9-vis-p1.tsne.v1",
+  "dataset": "dblp",
+  "target_node_count": 4057,
+  "model_seed": 3276665818,
+  "pca_dimensions": 50,
+  "dimensions": 2,
+  "perplexity": 50,
+  "early_exaggeration": 4,
+  "learning_rate": 100,
+  "iterations": 3000,
+  "initialization": "pca",
+  "metric": "euclidean",
+  "primary_visualization_seed": 2025,
+  "qa_visualization_seeds": [2026, 2027],
+  "sampling": "disabled",
+  "panels": [
+    {"panel": "a", "role": "Manual", "set_id": "fast_dblp_010_e7c3ad780037d0be"},
+    {"panel": "b", "role": "Full frozen", "set_id": "fast_dblp_057_81d0a8a9e8b5b789"},
+    {"panel": "c", "role": "Classification-only", "set_id": "fast_dblp_014_b41c6623948ee7ba"},
+    {"panel": "d", "role": "Clustering-only", "set_id": "fast_dblp_105_6445a5d16a71d459"}
+  ]
+}
